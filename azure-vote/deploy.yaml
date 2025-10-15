@@ -57,7 +57,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
       - name: azure-vote-front
-        image: khajuracrdemo.azurecr.io/khajurdemo:v1
+        image: khajuracrdemo.azurecr.io/khajurdemo:v2
         ports:
         - containerPort: 80
         resources:
